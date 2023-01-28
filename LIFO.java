@@ -11,9 +11,9 @@ public class LIFO extends Pila {
 
 		String tmp;
 
-		tmp = Stack.get(0);
+		tmp = Stack.get(Stack.Size()-1);
 
-		Stack.remove(0);
+		Stack.remove(Stack.Size()-1);
 
 		return tmp;
 
